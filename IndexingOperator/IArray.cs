@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace IndexingOperator
 {
-    class IArray
+    public class IArray
     {
-        public double[] Array;
+        private double[] Array;
         public double this[int index]
         {
             get

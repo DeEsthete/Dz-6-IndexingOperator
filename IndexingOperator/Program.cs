@@ -11,12 +11,12 @@ namespace IndexingOperator
         static void Main(string[] args)
         {
             IArray ar = new IArray(3);
-            ar.Array[0] = 2;
-            ar.Array[1] = 4;
-            ar.Array[2] = 8;
-            Console.WriteLine(ar.Array[0]);
-            Console.WriteLine(ar.Array[1]);
-            Console.WriteLine(ar.Array[2]);
+            ar[0] = 2;
+            ar[1] = 4;
+            ar[2] = 8;
+            Console.WriteLine(ar[0]);
+            Console.WriteLine(ar[1]);
+            Console.WriteLine(ar[2]);
             Console.ReadLine();
         }
     }
